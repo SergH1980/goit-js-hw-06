@@ -10,5 +10,5 @@ function toChangeBodyColor(event) {
   }
   let randomColor = getRandomHexColor();
   bodyEl.style.backgroundColor = randomColor;
-  colorName.textContent = randomColor;
+  colorNameEl.textContent = randomColor;
 }

@@ -1,3 +1,4 @@
+// document.querySelector(`#name-input`).value = `some value`;
 const inputEl = document.querySelector(`#name-input`);
 const spanEl = document.querySelector(`#name-output`);
 
@@ -7,7 +8,6 @@ if (inputEl.value !== ``) {
   spanEl.textContent = inputEl.value;
 }
 
-spanEl.textContent = `Anonymous`;
 function onInputChange(event) {
   if (event.currentTarget.value) {
     spanEl.textContent = event.currentTarget.value.trim();
